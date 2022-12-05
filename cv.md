@@ -17,3 +17,6 @@ On 12/05/2022, I started studying at RS.school on the JS/FE Pre-School 2022Q4 co
 Russuan - Native
 Belarusian - Native
 English ltvel - A1+
+
+### Education and courses:
+none
