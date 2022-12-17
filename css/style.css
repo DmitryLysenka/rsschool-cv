@@ -1,14 +1,10 @@
 * {
-  font-family: "Roboto";
+  font-family: "Gilroy";
 }
 
 .container {
-  max-width: 1500px;
+  max-width: 1200px;
   margin: 0 auto;
-}
-
-header {
-  background-color: #4267B2;
 }
 
 .header__top {
@@ -21,17 +17,11 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-h1 {
-  display: block;
-  color: #ffffff;
-  font-weight: 500;
+  height: 60px;
 }
 
 .menu {
-  height: 60px;
-  width: 750px;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,18 +29,72 @@ h1 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 .menu__item {
-  padding-right: 45px;
   font-weight: 300;
-  font-size: 23px;
-  color: #ffffff;
+  font-size: 18px;
+  color: #070707;
+}
+
+.devider {
+  width: 1200px;
+  border: 1px solid #828282;
+  margin-top: 10px;
+}
+
+.bio {
+  min-height: 190px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.bio__wrapper {
+  width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.bio__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 180px;
+  height: 120px;
+  font-size: 47px;
+  font-weight: 500;
+  margin: 0;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.bio__subtitle {
+  width: 155px;
+  height: 66px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 22px;
+}
+.bio__lang {
+  position: relative;
+  left: 20px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
 }/*# sourceMappingURL=style.css.map */
