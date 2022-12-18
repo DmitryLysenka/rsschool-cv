@@ -1,0 +1,22 @@
+footer {
+    min-height: 30px;
+    padding: 20px 0 20px 0;
+    background: #070707;
+    vertical-align: middle;
+    .link {
+        min-width: 450px;
+        height: 26px;
+        margin: 0 auto;
+        text-align: center;
+        vertical-align: baseline;
+        color: #ffffff;
+        font-size: 18px;
+    }
+        a {
+            color: #ffffff;
+            &:hover {
+                font-size: 2rem;
+                transition: 0.5s all;
+            }
+        }
+}

@@ -4,12 +4,165 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Hello</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>My CV</title>
 </head>
 <body>
-    <h1>Hello!</h1>
-    <h2>My name Dmitry Lysenka</h2>
-    <img src="img/WX1862QRXRU.jpg" alt="my photo" class="photo">
+    <header id="top">
+        <div class="container">
+                <div class="header__top">
+                    <ul class="menu">
+                        <li class="menu__item"><a href="#info">About me</a></li>
+                        <li class="menu__item"><a href="#exp">Skills</a></li>
+                        <li class="menu__item"><a href="#science">Education and courses</a></li>
+                        <li class="menu__item"><a href="#dev">Code</a></li>
+                        <li class="menu__item"><a href="#connection">Contacts</a></li>
+                    </ul>
+                </div>
+                <div class="devider"></div>
+        </div>
+    </header>
+
+    <main class="home">
+        <div class="container">
+            <div class="home__wrapper">
+                    <h1 class="home__title">Dmitry Lysenko</h1>
+                    <h2 class="home__subtitle">Beginer front-end developer <br>27 y.o. Gomel, Belarus</h2>
+                    <h3 class="home__lang"><span class="russian">ru</span>|<span class="english">eng</span></h3>
+                
+            </div>
+        </div>
+    </main>
+
+    <div class="photo">
+        <div class="photo__container">
+            
+        </div>
+    </div>
+
+    <section class="bio" id="info">
+        <h2 class="bio__title">About me</h2>
+        <div class="bio__descr-one">Hi, I'm Dmitry – I am  from Gomel and 
+            i'm learning front-end development since August 2022.
+        </div>
+        <div class="bio__descr-two">I'm studying at course "«JavaScript/Front-end. Stage 0»" in RS-School.
+        </div>
+        <div class="bio__descr-three">Ready to implement excellent projects
+            with wonderful people.
+        </div>
+    </section>
+
+    <section class="skills" id="exp">
+        <div class="container">
+            <h2 class="skills__title">Skills</h2>
+            <h3 class="skills__subtitle">I'm learning these skills</h3>
+            <div class="skills__wrapper">
+                <div class="skills__item">
+                    <img src="img/ico/html.png" alt="html icon" class="skills__ico">
+                    <h2 class="skills__item-name">Html</h2>
+                    <div class="skills__level">
+                        <img src="img/ico/Star_full.svg" alt="black star" class="skills__level-ico">
+                        <img src="img/ico/Star_full.svg" alt="black star" class="skills__level-ico">
+                        <img src="img/ico/Star_clear.svg" alt="grey star" class="skills__level-ico">
+                        <img src="img/ico/Star_clear.svg" alt="grey star" class="skills__level-ico">
+                        <img src="img/ico/Star_clear.svg" alt="grey star" class="skills__level-ico">
+                    </div>
+                </div>
+                <div class="skills__item">
+                    <img src="img/ico/css.png" alt="css icon" class="skills__ico">
+                    <h2 class="skills__item-name">Css</h2>
+                    <div class="skills__level">
+                        <img src="img/ico/Star_full.svg" alt="black star" class="skills__level-ico">
+                        <img src="img/ico/Star_full.svg" alt="black star" class="skills__level-ico">
+                        <img src="img/ico/Star_clear.svg" alt="grey star" class="skills__level-ico">
+                        <img src="img/ico/Star_clear.svg" alt="grey star" class="skills__level-ico">
+                        <img src="img/ico/Star_clear.svg" alt="grey star" class="skills__level-ico">
+                    </div>
+                </div>
+                <div class="skills__item">
+                    <img src="img/ico/js.png" alt="js icon" class="skills__ico">
+                    <h2 class="skills__item-name">JavaScript</h2>
+                    <div class="skills__level">
+                        <img src="img/ico/Star_full.svg" alt="black star" class="skills__level-ico">
+                        <img src="img/ico/Star_clear.svg" alt="grey star" class="skills__level-ico">
+                        <img src="img/ico/Star_clear.svg" alt="grey star" class="skills__level-ico">
+                        <img src="img/ico/Star_clear.svg" alt="grey star" class="skills__level-ico">
+                        <img src="img/ico/Star_clear.svg" alt="grey star" class="skills__level-ico">
+                    </div>
+                </div>
+                <div class="skills__item">
+                    <img src="img/ico/figma.png" alt="figma icon" class="skills__ico">
+                    <h2 class="skills__item-name">Figma</h2>
+                    <div class="skills__level">
+                        <img src="img/ico/Star_full.svg" alt="black star" class="skills__level-ico">
+                        <img src="img/ico/Star_full.svg" alt="black star" class="skills__level-ico">
+                        <img src="img/ico/Star_clear.svg" alt="grey star" class="skills__level-ico">
+                        <img src="img/ico/Star_clear.svg" alt="grey star" class="skills__level-ico">
+                        <img src="img/ico/Star_clear.svg" alt="grey star" class="skills__level-ico">
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="science">
+        <div class="container">
+            <h2 class="education__title">Education and courses</h2>
+            <div class="education__wrapper">
+                <div class="education__item">
+                    <h2 class="education__subtitle">Education:</h2>
+                    <ul class="education__list">
+                        <li class="education__list-item">Academy of the Ministry of Internal Affairs of the Republic of Belarus - 2012-2017.</li>
+                    </ul>
+                </div>
+
+                <div class="education__item">
+                    <h2 class="education__subtitle">Courses:</h2>
+                    <ul class="education__list">
+                        <li class="education__list-item"><a href="https://www.udemy.com/course/webdeveloper/" target="_blank">Udemy "WEB-Developer 2022"</a>- 60% in progress...</li>
+                        <li class="education__list-item"><a href="https://www.udemy.com/course/intensive-js/" target="_blank">Idemy - "Deep dive into JavaScript"</a>- completed.</li>
+                    </ul>
+                </div>
+
+                <div class="education__item-lang">
+                    <h2 class="education__subtitle">Languages:</h2>
+                    <ul class="education__list">
+                        <li class="education__list-item">Russian - Native</li>
+                        <li class="education__list-item">English ~ A1-A2</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="example" id="dev">
+        <div class="container">
+            <h2 class="example__title">Code example</h2>
+            <div class="example__code">
+                <code>
+                    let message = 'Hello world!'; <br>
+                    alert = message;
+                </code>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts" id="connection">
+        <div class="container">
+            <h2>Contacts</h2>
+            <div class="contacts__wrapper">
+                <a href="https://instagram.com/dmitlys?igshid=YTY2NzY3YTc=" target="_blank" class="contacts__link"><img src="img/ico/Inst.svg" alt="My Instagramm"></a>
+                <a href="https://github.com/DmitryLysenka" target="_blank" class="contacts__link"><img src="img/ico/Github.svg" alt="My Github"></a>
+                <a href="https://rs.school/js/" target="_blank" class="contacts__link"><img src="img/ico/RS.svg" alt="RS-School course"></a></div>
+        </div>
+    </section>
+
+    <div class="button"><a href="#top">To top</a></div>
+
+    <footer>
+        <div class="link">CV designed by Dmitry Lysenko. App icons by <a href="https://icons8.com/">Icons8.</a></div>
+    </footer>
 </body>
 </html>
