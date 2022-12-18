@@ -1,0 +1,10 @@
+.example {
+    min-height: 250px;
+    padding: 60px 0 60px 0;
+    &__code {
+        max-width: 500px;
+        margin: 0 auto;
+        margin-top: 50px;
+        font-size: 30px;
+    }
+}
