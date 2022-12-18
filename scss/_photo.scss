@@ -1,0 +1,9 @@
+.photo {
+    min-height: 400px;
+    &__container {
+        width: 1200px;
+        height: 700px;
+        margin: 0 auto;
+        background: url(../img/Photo_2.PNG) center (center/cover) no-repeat;
+    }
+}

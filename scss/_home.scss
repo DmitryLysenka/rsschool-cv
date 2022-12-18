@@ -1,0 +1,45 @@
+.home {
+    min-height: 188px;
+    display: flex;
+    align-items: center;
+    &__wrapper {
+        width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    &__title {
+        display: flex;
+        width: 180px;
+        height: 120px;
+        font-size: 47px;
+        font-weight: 500;
+        margin: 0;
+        align-items: flex-end;
+    }
+
+    &__subtitle {
+        width: 290px;
+        height: 66px;
+        margin: 0;
+        font-size: 22px;
+        line-height: 22px;
+        font-weight: 300;
+    }
+
+    &__lang {
+        position: relative;
+        left: 20px;
+        transform: rotate(-90deg);
+        font-size: 22px;
+        font-weight: 500;
+        .russian {
+            color: #828282;
+            cursor: pointer;
+        }
+        .english {
+            cursor: pointer;
+        }
+    }
+}
