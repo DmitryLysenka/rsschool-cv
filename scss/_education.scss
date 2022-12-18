@@ -1,0 +1,39 @@
+.education {
+    max-height: 450px;
+    padding: 50px 0 50px 0;
+    background: #F6F6F6;
+    &__title {
+        margin: 0 auto;
+    }
+    &__subtitle {
+        margin: 0;
+        text-align: left;
+        font-size: 40px;
+    }
+    &__wrapper {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__item {
+        width: 500px;
+    }
+
+    &__item-lang {
+        margin-top: 20px;
+    }
+
+    &__list {
+        list-style-type: none;
+        padding-left: 0px;
+    }
+    &__list-item {
+        margin-bottom: 10px;
+        font-size: 20px;
+        a {
+            color: black;
+        }
+    }
+}

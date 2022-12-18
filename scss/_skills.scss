@@ -1,0 +1,35 @@
+.skills {
+    min-height: 300px;
+    padding: 90px 0 100px 0;
+    &__title {
+        margin: 0 auto;
+    }
+
+    &__subtitle {
+        margin: 0 auto;
+        margin-top: 60px;
+        font-size: 22px; 
+        text-align: center;
+        font-weight: 300;
+        color: #070707;
+    }
+
+    &__wrapper {
+        margin: 0 auto;
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    &__item-name {
+        font-size: 14px;
+        text-align: center;
+        color: #828282;
+    }
+}
